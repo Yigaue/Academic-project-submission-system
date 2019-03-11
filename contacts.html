@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths mdl-js" style="" lang="en-us"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">.gm-err-container{height:100%;width:100%;display:table;background-color:#e0e0e0;position:relative;left:0;top:0}.gm-err-content{border-radius:1px;padding-top:0;padding-left:10%;padding-right:10%;position:static;vertical-align:middle;display:table-cell}.gm-err-content a{color:#4285f4}.gm-err-icon{text-align:center}.gm-err-title{margin:5px;margin-bottom:20px;color:#616161;font-family:Roboto,Arial,sans-serif;text-align:center;font-size:24px}.gm-err-message{margin:5px;color:#757575;font-family:Roboto,Arial,sans-serif;text-align:center;font-size:12px}.gm-err-autocomplete{padding-left:20px;background-repeat:no-repeat;background-size:15px 15px}</style><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style .gm-style-iw{font-weight:300;font-size:13px;overflow:hidden}.gm-style .gm-iw{color:#2c2c2c}.gm-style .gm-iw b{font-weight:400}.gm-style .gm-iw a:link,.gm-style .gm-iw a:visited{color:#4272db;text-decoration:none}.gm-style .gm-iw a:hover{color:#4272db;text-decoration:underline}.gm-style .gm-iw .gm-title{font-weight:400;margin-bottom:1px}.gm-style .gm-iw .gm-basicinfo{line-height:18px;padding-bottom:12px}.gm-style .gm-iw .gm-website{padding-top:6px}.gm-style .gm-iw .gm-photos{padding-bottom:8px;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none}.gm-style .gm-iw .gm-sv,.gm-style .gm-iw .gm-ph{cursor:pointer;height:50px;width:100px;position:relative;overflow:hidden}.gm-style .gm-iw .gm-sv{padding-right:4px}.gm-style .gm-iw .gm-wsv{cursor:pointer;position:relative;overflow:hidden}.gm-style .gm-iw .gm-sv-label,.gm-style .gm-iw .gm-ph-label{cursor:pointer;position:absolute;bottom:6px;color:#fff;font-weight:400;text-shadow:rgba(0,0,0,0.7) 0 1px 4px;font-size:12px}.gm-style .gm-iw .gm-stars-b,.gm-style .gm-iw .gm-stars-f{height:13px;font-size:0}.gm-style .gm-iw .gm-stars-b{position:relative;background-position:0 0;width:65px;top:3px;margin:0 5px}.gm-style .gm-iw .gm-rev{line-height:20px;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none}.gm-style.gm-china .gm-iw .gm-rev{display:none}.gm-style .gm-iw .gm-numeric-rev{font-size:16px;color:#dd4b39;font-weight:400}.gm-style .gm-iw.gm-transit{margin-left:15px}.gm-style .gm-iw.gm-transit td{vertical-align:top}.gm-style .gm-iw.gm-transit .gm-time{white-space:nowrap;color:#676767;font-weight:bold}.gm-style .gm-iw.gm-transit img{width:15px;height:15px;margin:1px 5px 0 -20px;float:left}.gm-iw {text-align:left;}.gm-iw .gm-numeric-rev {float:left;}.gm-iw .gm-photos,.gm-iw .gm-rev {direction:ltr;}.gm-iw .gm-stars-f, .gm-iw .gm-stars-b {background:url("https://maps.gstatic.com/mapfiles/api-3/images/review_stars.png") no-repeat;background-size: 65px 26px;float:left;}.gm-iw .gm-stars-f {background-position:left -13px;}.gm-iw .gm-sv-label,.gm-iw .gm-ph-label {left: 4px;}</style><link type="text/css" rel="stylesheet" href="style/css.css"><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
+    <meta charset="utf-8">
+    <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+    <!-- Always force latest IE rendering engine
+         (even in intranet) & Chrome Frame
+         Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--  Mobile Viewport Fix
+          j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+          device-width: Occupy full width of the screen in its current orientation
+          initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+          user-scalable = yes allows the user to zoom in -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+    <meta name="application-name" content="init">
+    <!-- Speaking of Google, don't forget to set your site up:
+         http://google.com/webmasters -->
+    <meta name="google-site-verification" content="">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/material.css">
+    <link rel="stylesheet" href="style/base.css"> 
+    <link rel="stylesheet" href="style/font-awesome.css"> 
+    <link rel="stylesheet" href="style/magnific-popup.css">
+    <link rel="stylesheet" href="style/animate.css"> 
+    <link rel="stylesheet" href="style/style.css"> 
+    <link href="style/css_002.css" rel="stylesheet">
+    <!--
+    <link rel="stylesheet" href="/init/static/css/web2py-bootstrap3.css"/>
+    -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <!-- All JavaScript at the bottom, except for Modernizr which enables
+         HTML5 elements & feature detects -->
+    <script src="js/modernizr-2.js" style=""></script>
+    <!--[if lt IE 9]>
+        <script src="/init/static/js/respond-1.4.2.min.js"></script>
+        <![endif]-->
+    <!-- Favicons -->
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_disable_with_message = "Working...";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    var ajax_error_500 = 'An error occured, please <a href="/contacts">reload</a> the page'
+    //--></script>
+
+<meta name="keywords" content="['web2py', 'python', 'framework']">
+<meta name="description" content="a cool new app">
+<meta name="generator" content="Web2py Web Framework">
+<meta name="author" content="Your Name &lt;you@example.com&gt;">
+<script src="js/jquery_002.js" type="text/javascript"></script>
+<link href="style/calendar.css" rel="stylesheet" type="text/css">
+<script src="js/calendar.js" type="text/javascript"></script>
+<script src="js/web2py.js" type="text/javascript"></script>
+ <!-- this includes jquery.js, calendar.js/.css and web2py.js -->
+    
+    
+  <script type="text/javascript" charset="UTF-8" src="js/common.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/map.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/util.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/marker.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/infowindow.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/onion.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/stats.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/controls.js"></script>
+  								<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+								
+									
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body id="page-top">
+    <!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <!-- Navbar ======================================= -->
+    
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle btn btn-default" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" id="web2py-logo"><img src="images/mjd_logo.png" style="margin-left:10%;"></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+          
+            <ul class="nav navbar-nav">
+                <li class="web2py-menu-first"><a href="index.html">Home</a></li>
+                <li><a href="company.html#about">Company</span></span></a></li>
+                <li><a href="services.html#services">Services</a></li>
+                <li><a href="gallery.html#projects">Our Projects</a></li>
+                <li><a href="equipments.html#equipment">Equipment</a></li>
+                <li class="web2py-menu-last"><a href="contacts.html#contact">Contact us</a></li>
+            </ul>
+          
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Masthead ===================================== -->    
+    
+      <header style="min-height: 30%" class="">
+          <div class="header-content">
+              <div class="header-content-inner">
+                  <h1 id="homeHeading"></h1>
+                  <p style=""></p>
+              </div>
+          </div>
+          <div class="" style="position:absolute;top:100%;background-color:rgb(54, 121, 163);padding:15px 15px 0px 15px;width:100%;">
+                <ul class="list-inline pull-left">
+                  <li>
+                        <strong> <a href="index.html"> Home </a> </strong>
+                  </li>
+                  <li>
+                    <strong> &gt; </strong>
+                  </li>
+                  <li>
+                      <strong>Contact Us</strong>
+                    </li>
+                  
+                </ul>
+                <span class="pull-right bread-text" style="padding-right: 100px"> 
+                  <span style="color:#FFD034"> | </span> Contact Us
+                </span>
+              </div>
+      </header>
+    
+    <!-- Main ========================================= -->
+    <!-- Begin page content -->
+    <main class="container-fluid main-container">
+      
+	<section style="padding-top: 50px;padding-bottom: 50px" class="container-fluid">
+		<div class="" id="contact" >
+			<div class="row">
+				<div class="col-md-6" style="padding-left: 0px;padding-right:5px">
+				    <div class="mdl-card mdl-shadow--4dp contact-panel" style="border-radius: 0px">
+                        <div class="mdl-card__media">
+                            <img src="images/base.jpg" alt="" class="img-responsive" style="width: 100%">
+                        </div>
+                        <div class="mdl-card__title">
+                            MJD OilField Base 1, Front View
+                        </div>
+                        <div class="mdl-card__supporting-text container">
+                            <address>
+                                KM17, Aba-Port Harcourt Express Way,<br>
+                                Via Intels Bus Stop,<br>
+                                Port Harcourt, River State.
+                            </address>
+                        </div>
+				    </div>
+                </div>
+				<div class="col-md-6" style="padding-right: 0px;padding-left:5px">
+                    <div class="mdl-card mdl-shadow--4dp contact-panel" style="border-radius: 0px">
+                        <div class="mdl-card__media">
+                            <img src="images/yard.jpg" alt="" class="img-responsive" style="width: 100%">
+                        </div>
+                        <div class="mdl-card__title">
+                            MJD OilField Yard, Front View
+                        </div>
+                        <div class="row mdl-card__supporting-text">
+                            <div class="col-md-6">
+                                <address class="col-md-offset-2">
+                                    Old Ota/Abeokuta Express Way, <br>
+                                    Behind Tipper Garrage, <br>
+                                    Ota, Ogun State.
+                                </address>
+                            </div>
+                            <div class="col-md-6 push-right">
+                                <address>
+                                    Tel +234-706-277-9117 <br>
+                                    management@mjdgroup.ng
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-6">
+                        <div class="mdl-card mdl-shadow--4dp contact-panel">
+                            <div class="mdl-card__title" style="background-color:rgb(54, 121, 163);color: #fff">
+                                <strong class="fa-lg text-capitalize"> 
+                                    <span style="color: #FFD034;">|</span> contact form
+                                </strong>
+                            </div>
+                            <div class="container mdl-card__supporting-text" style="padding-bottom: 25px">
+                                <form action="mail.php" onsubmit="sendMessage(); return false;">
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-upgraded" data-upgraded=",MaterialTextfield">
+                                        <input class="mdl-textfield__input" id="fullname" type="text" placeholder="Full Name" required="required">
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-upgraded" data-upgraded=",MaterialTextfield">
+                                        <input class="mdl-textfield__input" id="email" type="email" placeholder="E-mail" required="required">
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-upgraded" data-upgraded=",MaterialTextfield">
+                                        <input class="mdl-textfield__input form-control" id="message" type="text" placeholder="Message" required="required">
+                                    </div>
+                                    <div class="alert alert-danger" id="errormessage">
+                                      <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                    </div>
+                                    <div class="alert alert-success" id="successmessage">
+                                    
+                                    </div>
+                                    <script type="text/javascript">
+                                      $('#errormessage').hide(); $('#successmessage').hide();
+                                    </script>
+                                    <div>
+                                        <buttton type='submit' id="btnsendmessage" onclick="sendMessage();" class="btn btn-default">make contact</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mdl-card mdl-shadow--4dp contact-panel">
+                            <div class="mdl-card__title" style="background-color:rgb(54, 121, 163);color: #fff">
+                                <strong class="fa-lg text-capitalize"> 
+                                    <span style="color: #FFD034;">|</span> Further Information
+                                </strong>
+                            </div>
+                            <div class="mdl-card__supporting-text" style="width:100%">
+                                <div class="col-md-6" style="border-right: 1px dashed #1dc5fc;">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="h3 further-info__title text-capitalize">
+                                                Approval numbers:
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul style="list-style-type: none;">
+                                                <li>
+                                                    RC: 497775
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="h3 further-info__title text-capitalize">
+                                                MJD Base 1:
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul style="list-style-type: none;">
+                                                <li>
+                                                    KM17, Aba-Port Harcourt Express Way,<br>
+                                                    Via Intels Bus Stop,<br>
+                                                    Port Harcourt,<br>
+                                                    Rivers state, Nigeria
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="h3 further-info__title text-capitalize">
+                                                Contact Details:
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul style="list-style-type: none;">
+                                                <li>
+                                                    Phone Number: (+234)-706-277-9117
+                                                </li>
+                                                <li>(+234)-806-418-0222</li>
+                                                <li>
+                                                    Email: management@mjdgroup.ng
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="h3 further-info__title text-capitalize">
+                                                Registered Address:
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul style="list-style-type: none;">
+                                                <li>
+                                                    110, Woji Estate Road, <br>
+                                                    By YKC, Woji <br>
+                                                    Port Harcourt,<br>
+                                                    Rivers state
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-body" style="padding: 0px">
+							<div>
+								<script src="js/js"></script>
+                  <div style="overflow:hidden;height:100%;width:100%;">
+                      <div id="gmap_canvas" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="images/icon_error.png" draggable="false" style="-moz-user-select: none;"></div><div class="gm-err-title">Sorry! Something went wrong.</div><div class="gm-err-message">This page didn't load Google Maps correctly. See the JavaScript console for technical details.</div></div></div></div></div>
+                  </div>
+                  <script type="text/javascript">
+                    function init_map(){
+                        var myOptions = {
+                            zoom:12,
+                            center:new google.maps.LatLng(4.815554,7.049844200000052),
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        };
+                        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                        marker = new google.maps.Marker({
+                            map: map,position: new google.maps.LatLng(4.815554,7.049844200000052)
+                        });
+                        var content_title = '<strong style="color:#000">Location</strong>';
+                        var content_body =  '<p style="color:#000">Port Harcourt, Rivers State, Nigeria</p>'
+                        infowindow = new google.maps.InfoWindow({
+                            content:content_title + '<br>' + content_body + '<br>'});
+                            google.maps.event.addListener(marker, 'click', function(){
+                            infowindow.open(map,marker);});
+                            infowindow.open(map,marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+                  </script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    </main>
+
+     <!-- this is default footer -->
+      <footer style="background: url(/init/static/images/pattern.png);background-color: #000;">
+      <section class="well2 offset1">
+      <div class="container">
+        <h3 class="text-center white text-capitalize">a few of our clientele</h3>
+        <ul class="flex-list list-inline wow fadeIn animated text-center" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">
+          <li style="padding-right: 50px"><img src="images/total.png" alt=""></li>
+          <li style="padding-right: 50px"><img src="images/7_energy.png" alt=""></li>
+          <li style="padding-right: 50px"><img src="images/npdc.png" alt=""></li>
+          <li style="padding-right: 50px"><img src="images/shell.png" alt=""></li>
+        </ul>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center-mobile">
+          <h3 class="white">We are Certified!</h3>
+          <h5 class="light regular light-white">We are registered with top professional bodies.</h5>
+          <section class="text-left">
+            <h4>Nigerian Society of Engineers</h4>
+            <p>Firm Member. REG NO.: 000303</p>
+          </section>
+          <section class="text-left">
+            <h4>Nigerian Institute of Welding</h4>
+            <p>Institutional Member, CERT. NO.: INSTMNTW-093</p>
+          </section>
+        </div>
+        <div class="col-md-6 text-center-mobile">
+          <h3 class="white text-center">Get in Touch<span class=""></span></h3>
+          <div class="row opening-hours">
+            <div class="col-md-7 text-center-mobile">
+              <h5 class="light-white light">
+                Phone: (+234)-706-277-9117 <br>
+                (+234)-806-418-0222 <br>
+                Email: management@mjdgroup.ng <br>
+              </h5>
+            </div>
+            <div class="col-md-5 text-center-mobile">
+              <h5 class="light-white light">
+                110, Woji Estate Road, <br>
+                By YKC, Woji <br>
+                Port Harcourt,<br>
+                Rivers state
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bottom-footer text-center-mobile">
+        <div class="col-md-12">
+          <p class="light regular foot-color-one light-white col-md-6">
+            © 2017 All Rights Reserved. MJD Oilfield Services Limited RC: 497775
+          </p>
+          <p class="col-md-6 text-right foot-color-two">
+             Design: <a href="http://chigisoft.com" target="_blank">Chigisoft</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>    
+    
+    <!-- The javascript =============================== -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/material.js"></script>
+    <script src="js/web2py-bootstrap3.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/creative.js"></script>
+    
+    
+  
+<script type="text/javascript">
+      function sendMessage()
+      {
+        $('#errormessage').hide(); 
+        $('#successmessage').hide();
+
+        var name = $('input#fullname').val().trim();
+        if (name == "" || name.indexOf(" ") < 0) {
+            $('#errormessage').html("Please provide your full name");
+            $('#errormessage').show(500);
+            //$('input#fullname').focus();
+            return;
+        }
+
+        var emailCompare = /^([a-z0-9_.-]+)@([da-z.-]+).([a-z.]{2,6})$/; // Syntax to compare against input
+        var email = $('input#email').val().trim().toLowerCase(); // get the value of the input field
+        if (email == "" || !emailCompare.test(email)) {
+            $('#errormessage').html("Please provide a working email address");
+            $('#errormessage').show(500);
+            //$('input#fullname').focus();
+            return;
+        }
+
+        var comment = $('#message').val(); // get the value of the input field
+        if (comment == "" || comment == " ") {
+            $('#errormessage').html("Please enter your message");
+            $('#errormessage').show(500);
+            //$('input#fullname').focus();
+            return;
+        }
+
+        $.ajax({
+                type: "POST",
+                url: 'mail.php',
+                data: {name: name, email: email, message: comment},
+                  success:function(html){
+                    
+                        $('#successmessage').html("Great! We'll be in touch. Mr " + html);
+                        $('#successmessage').show(500);
+                   
+                }
+            });
+      }
+
+    </script>
+</body></html>
